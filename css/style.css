@@ -1,12 +1,12 @@
 *{
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
     font-family: 'poppins' Arial, Helvetica, sans-serif;
     box-sizing: box;
 }
 /* Header */
 header{
-
-    height: 800px;
+    height: 100vh;
     background: url('../backg1/hero.png');
 }
 .container{
@@ -41,10 +41,9 @@ header nav{
     float: right;
     margin-top: 20px;
 }
-   
     .btn{
         text-align: center;
-        width: 100%;
+        width: 120%;
         margin-top: 5px;
         float: left;
         font-size: 20px;
@@ -52,9 +51,8 @@ header nav{
         background: #008000;
         border: none;
         height: 50px;
-        padding-left: 12px;
-        padding-right: 12px;
-        padding-bottom: 10px;
+        padding-left: 12px 12px 10px;
+        
     }
       
   #id{
@@ -64,12 +62,10 @@ header nav{
         }
 .future h1{
 margin-top: 30px;
-padding-top: 30px;
-font-size: 39px;
+font-size: 40px;
 color: #fff;
 text-align: center;
 }
-
 
 .future h1:hover{
 color: #008000;
@@ -84,11 +80,9 @@ header a:hover{
 .future p{
     font-size: 29px;
     color: #fff;
-    margin-top: 10px;
-    padding-top: 20px;
+    margin-top: 30px;
     text-align: center;
     
-
 }
 
    #kl{
@@ -110,7 +104,7 @@ header a:hover{
     width: 10%;
     margin-top: 40px;
     float: left;
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
     background: #008000;
     border: none;
@@ -120,80 +114,113 @@ header a:hover{
 
 .content{
 display: flex;
-flex-direction: row;
 width: 100%;
-margin: auto;
-background: #f7f4f4;
+margin-left: 15px;
 justify-content: space-evenly;
 overflow: hidden; 
 }
 
 #more h3{
-    font-size: 30px;
+    width: 40%;
+    font-size: 44px;
     color: #23b1a5;
-    padding-top: 35px;
-}
+   padding-top: 45px;
+}  
 #more p{
     margin-top: 10px;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 30px;
+    width: 50%;
+   
 }
-
 #sig{
-   text-align: center;
-       width: 200px;
-       margin-top: 40px;
-       font-size: 30px;
-       color: #fff;
-       background: #23b1a5;
-       border: none;
-       height: 65px;
-       margin-left: 500px;
-      
-      
-}
-#sig:hover{
+        width: 20%;
+         margin-top: 25px;
+        font-size: 40px;
+        color: #fff;
+        background: #23b1a5;
+        border: none;
+        height: 65px;
+        margin-left: 40px;
+        
+ }
+ #sig:hover{
     color: #800006;
     transition: 0.5s;
 }
-
-.zik #lean{
-    display: inline-block;
-    width: 30%;
-    flex-direction: row;
-}
-.zik h2{
-    text-align: center;
-    font-size: 30px;
-    color: #23b1a5;
-    margin-top: 30px  
-}
-
-#lean img{
-   width: 40%;
+  #stat{
+   
+    margin-top: 70px;
+ } 
+.container3{
+    width: 100%;
+    background: #f7f4f4;
+    height: 55vh;  
    margin-top: 30px;
-   margin-left: 5px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+    justify-content: space-evenly; 
+} 
+
+#aside{
+    float: right;
+    margin-top: 30px;
+    width: 40%;
+}
+#mg{
+    width: 48%;
+    margin-top: 30px;
    
 }
-
-#lean h3{
-    margin-top: 20px;
-    margin-left: 15px;
+#aside h3{
+    font-size: 40px;
+    width: 70%;
     color: #23b1a5;
-    font-size: 30px;
-    
 }
-#lean p{
-margin-top: 10px;
-font-size: 20px;
-text-justify: justify;
-margin-left: 15px;
+#aside p{
+    margin-top: 10px;
+    font-size: 28px;
+    width: 70%;
 }
 
+.zik {
+    margin-top: 30px;
+    width: 100%;
+} 
+.zik .earn{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+   background: #fff;
+   text-align: center;  
+   height: 90vh;
+}
+#lean{
+    width: 80%;
+    margin-top: 30px;
+}
+#lean h2{
+    width: 80%;
+    font-size: 35px;
+    color: #23b1a5;
+}
+#lean h3{
+    font-size: 35px;
+    color: #23b1a5;    
+}
+
+#lean p{
+    margin-top: 10px;
+    font-size: 20px;   
+}
+#lean img{
+    width:30%;
+    margin-top: 40px;
+}
 .get{
+    margin-top: 50px;
     width: 100%;
     background: #4b6ddd;
-    height: 30vh;
+    height: 27vh;
 }
 .get h1{
     font-size: 30px;
@@ -204,30 +231,30 @@ margin-left: 15px;
 }
 #but{
     align-items: center;
-    width: 50%;
+    width: 40%;
     margin-top: 40px;
-    margin-left: 30px;
+   margin-left: 50px;
     float: left;
     font-size: 30px;
     color: #000;
     height: 65px;
     border: none;
-    padding-left: 30px;
-    background: #23b1a5;
+    background: #fff;
+    align-items: center;
    
-}
+} 
 #tobtn{
     align-items: center;
-    width: 10%;
+    width: 15%;
     margin-top: 40px;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     background: #008000;
     border: none;
     height: 64px;
    
-}
+} 
 
 /*Contact*/
 
@@ -244,9 +271,10 @@ margin-left: 15px;
     width: 10%;
 }
 .cov{
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
+    margin-left: 5px;
 }
  #center h3{
     font-size: 30px;
@@ -260,41 +288,37 @@ margin-left: 15px;
  .butt{
     display: flex;
     width: 100%;
-    padding-left: 600px;
-    float: left;
     padding-top: 30px;
  }
 
 #form{
     align-items: center;
-    width: 50%;
+    width: 30%;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 30px; 
     float: left;
-    font-size: 30px;
+    font-size: 15px;
     color: #000;
-    height: 65px;
+    height: 50px;
     border: none;
-    padding-left: 30px;
     background: #23b1a5;
    
 }
 #button{
-    align-items: center;
-    width: 10%;
+    width: 20%;
     margin-top: 40px;
     float: left;
     font-size: 20px;
     color: #fff;
     background: #008000;
     border: none;
-    height: 64px;
+    height: 50px;
    
 }
 #bx {
-    width: 100%;
+    width: 30%;
     color: #fff;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 .foot{
@@ -306,7 +330,8 @@ margin-left: 15px;
         height: 10vh;
         position: absolute;  
         text-align: center;
-        float: right;
+        overflow: auto;
+       
     }
 
 #note p{
@@ -314,14 +339,12 @@ margin-left: 15px;
     text-align: center;
     padding-top: 30px;
     color:#fff;
-    text-align: center;
-   margin-left: 30px;
+    
    
-}
-
-
+} 
 /*........ Media Query..........*/
 @media(max-width:768px){
+
     header, 
     .container,
     header  ul,
@@ -331,19 +354,19 @@ margin-left: 15px;
     .hero,
     .future h1{
     width: 100%;
-    overflow: hidden;
+    overflow:hidden;
     float:none;
     }
     .branding{
-        width: 80%;
+        width: 60%;
        
         }
         .branding h1{
             margin-top: 22px;
-            font-size: 15px;
+            font-size: 10px;
              color: #fff;
             margin-left: 5px;
-            font-weight: 50; 
+            font-weight: 40; 
         } 
           
         header nav ul{
@@ -354,6 +377,7 @@ margin-left: 15px;
             color: #fff;
             font-size: 10px;
             margin-top: 1px;
+            margin-left: 12px;
         }
         header li{
             float: left;
@@ -364,31 +388,31 @@ margin-left: 15px;
             text-align: center;
             width: 99%;
             float: left;
-            font-size: 9px;
+            font-size: 8px;
             color: #fff;
             background: #008000;
             border: none;
-            height: 30px;
-            margin-left: 1px;
-          
-          
+            height: 20px;
+            margin-left: 1px;     
 }
     .future h1{
     width: 90%;
-     margin-top: 30px;
-    font-size: 20px;
+     margin-top: 5px;
+    font-size: 14px;
     color: #fff;
+    float: right;
+    text-align: center;
                 
      }
      .future p{
-        font-size: 18px;
+        font-size: 10px;
         color: #fff;
         margin-top: 10px;
      }
     
      #kl{
         align-items: center;
-        width: 50%;
+        width: 40%;
         margin-top: 40px;
         margin-left: 30px;
         float: left;
@@ -412,91 +436,114 @@ margin-left: 15px;
         height: 64px;
        
     }
-    .content{
+    .container3{
         width: 50%;
-        overflow: hidden;
-        margin: auto;
-        display: block;
-        flex-direction: row;
-        text-align: center;
-    }
-    
-    #more h3{
-        text-align: center;
-        font-size: 18px;
-        color: #23b1a5;
-         margin-top: 20px;
-    
-    }
-    #more p{
-        margin-top: 15px;
-        font-size: 15px;
-       text-align: center;
-       margin: 0 10px 0 10px;  
-    }
-    #howit h3{
-    text-align: center;
-    font-size: 15px;
+        background: #f7f4f4;
+        height: 40vh;  
+       margin: auto;
+       margin-bottom: 5px;
+       margin-left: 5px;
+        justify-content: space-evenly; 
+    } 
+#more h3{
+    width: 60%;
+    font-size: 10px;
     color: #23b1a5;
+    padding-top: 15px;
+}  
+#more p{
     margin-top: 15px;
-    }
-    #howit p{
-        margin-top: 15px;
-        font-size: 15px;
-        text-align: center;
-    }
+    font-size: 12px;
+    width: 50%;  
+}
+#sig{
+    width: 50%;
+     margin-top: 25px;
+    font-size: 20px;
+    color: #fff;
+    background: #23b1a5;
+    border: none;
+    height: 65px;
+    margin-left: 40px;
     
-    #sig{
-         align-items: center;
-           width: 30%;
-           margin-top: 10px;
-           font-size: 15px;
-           color: #fff;
-           background: #23b1a5;
-           border: none;
-           height: 40px;
-           float: right;     
-          
-    }
-    .come{
-        width: 60%;
-        overflow: hidden;
-        margin: auto;
-    }
-    .zik #lean{
-        display: inline-block;
-        flex-direction: row;
-    }
-    .zik h2{
-        text-align: center;
-        font-size: 18px;
-        color: #23b1a5;
-        margin-top: 10px;
-        text-align: center;
-       
-    }
+}
+#stat{
+   
+    margin-top: 10px;
+    float: left;
     
-    #lean img{
+ } 
+ .container3{
+    width: 100%;
+    background: #f7f4f4;
+    height: 30vh;  
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+    justify-content: space-evenly; 
+}
+    
+#aside{
+    float: right;
+    margin-top: 10px;
+    width: 70%;
+}
+#mg{
+    width: 48%;
+    margin-top: 10px;
+   
+}
+#aside h3{
+    font-size: 19px;
+    width: 60%;
+    color: #23b1a5;
+}
+#aside p{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 50%;
+}
+.zik {
+    margin-top: 10px;
+    width: 80%;
+} 
+.zik .earn{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+   background: #fff;
+   text-align: center;  
+   height: 50vh;
+}
+#lean{
+    width: 80%;
+    margin-top: 30px;
+}
+#lean h2{
+    width: 80%;
+    font-size: 30px;
+    color: #23b1a5;
+    text-align: center;
+}
+#lean h3{
+    font-size: 10px;
+    color: #23b1a5;    
+}
+
+#lean p{
+    margin-top: 10px;
+    font-size: 10px;   
+} 
+#lean img{
        width: 50%;
        margin-top: 20px;
-       align-items: center;
        
-    }
-    #lean h3{
-        margin-top: 5px;
-        color: #23b1a5;
-        font-size: 10px;
-        display: block;
-        text-align: center;
-    }
-    #lean p{
-    margin-top: 10px;
-    font-size: 10px;
-    }
-    
+    } 
+  
     .get{
         width: 100%;
         background: #4b6ddd;
+        height: 15vh;
     }
     .get h1{
         font-size: 10px;
@@ -539,7 +586,7 @@ margin-left: 15px;
         overflow: hidden; 
     }
     #ig{
-        width: 2%;
+        width: 20%;
     }
     .cov{
         width: 80%;
@@ -557,63 +604,57 @@ margin-left: 15px;
     
      .butt{
         display: flex;
-        width: 100%;
+        width: 80%;
         padding-left: 5px;
         float: left;
-        padding-top: 30px;
+        padding-top: 20px;
      }
     
-#form{
-    align-items: center;
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 30px;
-    float: left;
-    font-size: 12px;
-    color: #000;
-    height: 65px;
-    border: none;
-    padding-left: 30px;
-    background: #23b1a5;
-   
-}
-#button{
-    align-items: center;
-    width: 10%;
-    margin-top: 20px;
-    float: left;
-    font-size: 10px;
-    color: #fff;
-    background: #008000;
-    border: none;
-    height: 64px;
-   
-}
-#bx {
-    width: 40%;
-    color: #fff;
-    font-size: 20px;
-}
-
+     #form{
+        align-items: center;
+        width: 60%;
+        margin-top: 40px;
+        margin-left: 10px; 
+        float: left;
+        font-size: 10px;
+        color: #000;
+        height: 40px;
+        border: none;
+        background: #23b1a5;
+       
+    }
+    #button{
+        width: 50%;
+        margin-top: 40px;
+        float: left;
+        font-size: 7px;
+        color: #fff;
+        background: #008000;
+        border: none;
+        height: 40px;
+       
+    }
+    #bx {
+        width: 10%;
+        color: #fff;
+        font-size: 10px;
+    }
     
     .foot{
             width: 100%;
             margin-bottom: 2px;
-            margin-top: 150px;
+            margin-top: 8px;
             display: flex;
             background: #4b6ddd;
-            height: 10vh;
-            position: absolute;  
-            text-align: center;
+            height: 8vh;
         }
     
     #note p{
         font-size: 8px;
-        text-align: justify;
-        padding-top: 30px;
+       margin-top: 20px;
         color:#fff;
         text-align: center;
-       margin-left: 15px;
+     
        
     }
    
